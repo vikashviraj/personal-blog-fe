@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./colors";
+@import "./mixins";
+
+// @include desktop(){
+//   body {
+//     color: $primary-text-rgb;
+//     background: $bg-primary-rgb;
+//   }
+// }
+body {
+  color: $primary-text-rgb;
+  background: $bg-primary-rgb;
+}
+
+::-webkit-scrollbar-button{
+  height: 300px;
+}
+
