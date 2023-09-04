@@ -14,8 +14,8 @@
   width: 504px;
   height: 215px;
   padding: 40px;
-  color: $primary-text-rgb;
-  background-color: $bg-secondary-rgb;
+  color: $textprimary;
+  background-color: $bgsecondary;
   font-size: 14px;
   line-height: 21px;
   text-align: start;
@@ -41,7 +41,7 @@
     line-height: 15px;
     letter-spacing: 3px;
     font-weight: 600;
-    color: $primary-text-rgb;
+    color: $textprimary;
     text-transform: uppercase;
   }
   .title {
@@ -55,7 +55,7 @@
   .desc {
     font-size: 14px;
     line-height: 21px;
-    color: $secondary-text-rgb;
+    color: $textsecondary;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -72,7 +72,7 @@
 
     .icon {
       float: left;
-      color: $primary-text-rgb;
+      color: $textprimary;
     }
     .readText {
       font-size: 12px;
@@ -80,13 +80,9 @@
       float: left;
       margin-left: 6px;
       letter-spacing: 1.3px;
-      color: $secondary-text-rgb;
+      color: $textsecondary;
     }
-    .footerRight {
-      float: right;
-    }
-    .external {
-      color: $primary-text-rgb;
-    }
+   
+    
   }
 }
